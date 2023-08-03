@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    background-color: unset;
+    &:hover {
+        color: #9733DC;
+        background-color: unset;
+    }
+    &.router-link-active {
+        font-weight:bold;
+    }
+}
+.v-carousel__controls {
+    background: unset !important;
+}
+.opaque {
+    opacity: 0.8;
+}
+.rounded {
+    border-radius: 20px;
+}
